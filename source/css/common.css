@@ -1,0 +1,49 @@
+.navbar-default {
+  background-color: #fff;
+  border: none;
+}
+.navbar-header {
+  height: 80px;
+}
+@media screen and (max-width: 768px) {
+  .navbar-toggle {
+    margin-top: 26px!important;
+  }
+}
+@media (min-width: 768px) {
+  .navbar {
+    margin-bottom: 0;
+  }
+  .navbar .navbar-brand {
+    padding-bottom: 10px;
+  }
+  .navbar .navbar-nav li a {
+    font-size: 1.2em;
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.navbar-collapse {
+  text-align: right;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+}
+.footer .footer-item {
+  margin: 30px auto;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li {
+  line-height: 3em;
+}
+.footer img {
+  height: 10em;
+}
+.footer .record {
+  border-top: 1px solid #fff;
+  line-height: 50px;
+}

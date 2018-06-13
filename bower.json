@@ -1,0 +1,24 @@
+{
+  "name": "renrenkeji",
+  "description": "人人教育企业网站",
+  "main": "app.js",
+  "authors": [
+    "djm"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "前端项目"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  }
+}

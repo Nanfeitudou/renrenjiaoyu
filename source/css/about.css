@@ -1,0 +1,48 @@
+.ab-renren h1 {
+  margin-top: 100px;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .ab-renren h1 {
+    margin-top: 50px;
+  }
+}
+.ab-renren h3 {
+  font-weight: 700;
+  margin: 30px auto;
+}
+.ab-renren p {
+  text-indent: 2em;
+  font-size: 1.5em;
+}
+.ab-renren img {
+  margin: 20px auto 100px;
+}
+@media (max-width: 768px) {
+  .ab-renren img {
+    margin-bottom: 50px;
+  }
+}
+.rr-address h1 {
+  margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .rr-address h1 {
+    margin-bottom: 20px;
+  }
+}
+.rr-address img {
+  margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .rr-address img {
+    margin-bottom: 20px;
+  }
+}
+.rr-address .rr-item {
+  margin-bottom: 60px;
+}
+.rr-address .rr-item p {
+  font-size: 1.5em;
+  margin-top: 50px;
+}

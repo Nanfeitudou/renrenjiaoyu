@@ -1,0 +1,58 @@
+
+// 头部样式
+.navbar-default {
+    background-color: #fff;
+    border: none;
+}
+.navbar-header {
+    height: 80px;
+}
+ 
+@media screen and (max-width: 768px) {
+    .navbar-toggle {
+        margin-top: 26px!important;
+    }
+} 
+@media (min-width:768px) {
+    .navbar {
+        margin-bottom: 0;
+        .navbar-brand {
+            padding-bottom: 10px;
+        }
+        .navbar-nav {
+            li {
+                a {
+                    font-size: 1.2em;
+                    color: #000;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+            } 
+        } 
+    }
+}
+.navbar-collapse {
+    text-align: right;
+}
+
+// 底部样式
+.footer {
+    background-color: #000;
+    color: #fff;
+    .footer-item {
+        margin: 30px auto;
+    }
+    ul {
+        list-style: none;
+        li {
+            line-height: 3em;
+        }
+    }
+    img {
+        height: 10em;
+    }
+    .record {
+        border-top: 1px solid #fff;
+        line-height: 50px;
+    }
+}

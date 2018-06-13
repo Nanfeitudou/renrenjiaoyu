@@ -1,0 +1,82 @@
+/* 课程体系 */
+.course-system {
+    .course-navigation {
+        ul {
+            margin-right: 0;
+            li {
+                a {
+                    &:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+    } 
+    .course-item1 {
+        img {
+            margin-bottom: 50px;
+        }
+        a {
+            color: #fff;
+            font-size: 1.2em;
+            margin-bottom: 80px;
+            background-color: #000;
+            &:hover {
+                background-color: #66b3ff;
+            }
+        }
+       .advantage-item {
+            background-color: #f0f8ff;
+            border-radius: 3px;
+            border: 1px #ccc solid;
+            padding: 60px 0;
+            position: relative;
+            margin: 0 auto 50px;
+            span {
+                font-size: 5em;
+                color: #66b3ff;
+            }
+            h3 {
+                @media (max-width:767px) {
+                    margin: 20px auto 30px;
+                } 
+            }
+            .itemsso {
+                color: #fff;
+                width: 100%;
+                height: 100%;
+                background-color: #227979;
+                padding: 25px 10px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: none;
+            }
+            &:hover .itemsso {
+                display: block;
+            }
+        }
+        .posters {
+            background-color: #122347;
+            .qdgcs {
+                width: 100%;
+            }
+            .web-lists {
+                img {
+                    margin: 30px auto 0;
+                    @media (max-width:767px) {
+                        margin-top: 0;
+                    }    
+                }
+                p {
+                    color: #fff;
+                    font-size: 1.3em;
+                    margin-bottom: 50px;
+                    @media (max-width:767px) {
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+    }
+}
