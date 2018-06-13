@@ -1,0 +1,58 @@
+.sztd .sztd-item1 {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+.sztd .sztd-item2 img {
+  border-radius: 50%;
+}
+@media (min-width: 992px) {
+  .sztd .sztd-item3 {
+    height: 360px;
+  }
+}
+.sztd .sztd-item3 img {
+  border-radius: 50%;
+}
+.choice {
+  font-size: 1.5em;
+}
+@media (max-width: 768px) {
+  .choice {
+    font-size: 0.8em;
+  }
+}
+.choice h1 {
+  margin: 50px auto;
+}
+@media (max-width: 768px) {
+  .choice h1 {
+    margin: 0 auto 30px;
+    font-size: 2.5em;
+  }
+}
+.choice .table1 {
+  margin-bottom: 0;
+}
+.choice .table1 tr {
+  background-color: #ff8000;
+  color: #fff;
+}
+.choice #demo {
+  height: 450px;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+@media (max-width: 768px) {
+  .choice #demo {
+    margin-bottom: 50px;
+  }
+}
+.choice #demo #demo1 tr:nth-of-type(odd),
+.choice #demo #demo2 tr:nth-of-type(odd) {
+  background-color: #f3aef3;
+}
+.choice #demo #demo1 tr:nth-of-type(even),
+.choice #demo #demo2 tr:nth-of-type(even) {
+  background-color: #0ff;
+}

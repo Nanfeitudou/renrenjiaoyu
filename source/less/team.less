@@ -1,0 +1,59 @@
+// 师资团队
+.sztd {
+    .sztd-item1 {
+        border: 1px solid #ccc;
+        padding: 5px;
+        margin-bottom: 50px;
+    }
+    .sztd-item2 {
+        img {
+            border-radius: 50%;
+        }
+    }
+    .sztd-item3 {
+        @media (min-width:992px) {
+            height: 360px;
+        }
+        img {
+            border-radius: 50%;
+        } 
+    }
+}
+// 让你的选择走向高薪
+.choice {
+    font-size: 1.5em;
+    @media (max-width:768px) {
+        font-size: 0.8em;
+    }
+    h1 {
+        margin: 50px auto;
+        @media (max-width:768px) {
+            margin: 0 auto 30px;
+            font-size: 2.5em;
+        }
+    }
+    .table1 {
+        margin-bottom: 0;
+        tr {
+            background-color: #ff8000;
+            color: #fff;
+        }
+    }
+    #demo {
+        height: 450px;
+        overflow: hidden;
+        margin-bottom: 100px;
+        @media (max-width:768px) {
+            margin-bottom: 50px;
+        }
+        #demo1,#demo2 {
+            tr:nth-of-type(odd) {
+                background-color: rgb(243, 174, 243);
+            }
+            tr:nth-of-type(even) {
+                background-color: #0ff;
+                
+            }
+        }
+    }
+}

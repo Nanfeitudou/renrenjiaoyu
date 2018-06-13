@@ -1,0 +1,259 @@
+
+// 头部样式
+/* .navbar-default {
+    background-color: #fff;
+    border: none;
+}
+.navbar-header {
+    height: 80px;
+}
+ 
+@media screen and (max-width: 768px) {
+    .navbar-toggle {
+        margin-top: 26px!important;
+    }
+} 
+@media (min-width:768px) {
+    .navbar {
+        margin-bottom: 0;
+        .navbar-brand {
+            padding-bottom: 10px;
+        }
+        .navbar-nav {
+            li {
+                a {
+                    font-size: 1.2em;
+                    color: #000;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+            } 
+        } 
+    }
+}
+.navbar-collapse {
+    text-align: right;
+}
+ */
+// 关于我们
+.about-us {
+    padding: 2.5em 0;
+    h1 {
+        @media (max-width:767px) {
+            font-size: 2em;
+        }
+    }
+    a {
+        &:hover .btn{
+            background-color: #66b3ff;
+        }
+        .btn {
+            color: #fff;
+            background-color: #000;
+        }
+    }
+}
+// 轮播
+.carousel a {
+    &:hover .glyphicon{
+       color: #f00;
+    }
+
+}
+// 这是IT从业者的辉煌时代
+.advertising {
+    color: #fff;
+    background: url(../images/advertising.jpg) no-repeat center;
+    background-size:cover;
+    h1 {
+        @media (max-width:767px) {
+            font-size: 2em;
+        }
+    }
+    h3 {
+        @media (max-width:767px) {
+            font-size: 1em;
+            margin-bottom: 30px;
+        }  
+    }
+    h1,h6 {
+        margin-top: 2em;
+    }
+    .condi {
+        padding: 10px;
+        margin: 50px auto 80px;
+        color: #000;
+        width: 300px;
+        height: 220px;
+        border-radius: 10px;
+        background-color: #fff; 
+        @media (max-width:767px) {
+            margin: 0 auto 50px;
+        }
+        span {
+            font-size: 2.5em;
+            color: #66b3ff;
+            margin: 30px 0 20px;
+        }
+        h3 {
+            margin-bottom: 20px;
+        }
+    }
+}
+// 核心课程
+.core-courses .container{
+    h1 {
+        margin-top: 2em;
+        @media (max-width:767px) {
+            font-size: 2em;
+        }
+    }
+    h3 {
+        margin-top: 1em;
+        @media (max-width:767px) {
+            font-size: 1em;
+            margin-bottom: 30px;
+        } 
+    }
+    .courses {
+        margin: 50px auto 80px;
+        @media (max-width:767px) {
+            margin: 0 auto 50px;
+        }
+    }
+}
+// 免费试听广告
+.audio-advertising {
+    background-color: #555;
+    background-size:cover;
+    color: #fff;
+    h1,h3 {
+        margin-top: 1.2em;
+    }
+    h1 {
+        margin-top: 80px;
+        @media (max-width:767px) {
+            font-size: 2em;
+            margin: 50px auto 30px;
+        }
+    }
+    h3 {
+        @media (max-width:767px) {
+            font-size: 1em;
+            margin-bottom: 30px;
+        } 
+       &:last-child {
+           margin-bottom: 80px;
+           @media (max-width:767px) {
+            margin-bottom: 50px;
+           }
+       } 
+    }
+}
+// 我们的优势
+.advantage {
+    h1 {
+        margin-top: 80px;
+        @media (max-width:767px) {
+            font-size: 2em;
+            margin-top: 50px;
+        }
+    }
+    h3 {
+        margin: 50px auto;
+        @media (max-width:767px) {
+            font-size: 1em;
+            margin: 20px auto 30px;
+        }  
+
+    }
+    .advantage-item {
+        background-color: #f0f8ff;
+        border-radius: 3px;
+        border: 1px #ccc solid;
+        padding-top: 50px;
+        position: relative;
+        height: 260px;
+        margin: 0px auto 50px;
+        @media (max-width:767px) {
+            margin-bottom: 30px;
+        }
+        span {
+            font-size: 5em;
+            color: #66b3ff;
+        }
+        h3 {
+            margin: 30px auto !important;
+        }
+        .itemsso {
+            color: #fff;
+            width: 100%;
+            height: 100%;
+            background-color: #333;
+            padding: 25px 10px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+        &:hover .itemsso {
+            display: block;
+        }
+    }
+}
+// 学习环境 及 企业荣誉
+ .learning-env {
+    h1 {
+        margin-top: 80px;
+        @media (max-width:767px) {
+            font-size: 2em;
+            margin-top: 50px;
+        }
+    }
+    h3 {
+        margin: 30px auto;
+        @media (max-width:767px) {
+            font-size: 1em;
+        } 
+    }
+    .item {
+        img {
+            @media (max-width:767px) {
+                height: 220px;
+            }
+            height: 500px;
+            width: 100%;
+        }
+    }
+  }
+
+// 合作企业
+  .cooperation {
+      img {
+          width: 100%;
+          margin: 30px auto 80px;
+      }
+  }
+
+// 底部样式
+/* .footer {
+    background-color: #000;
+    color: #fff;
+    .footer-item {
+        margin: 30px auto;
+    }
+    ul {
+        list-style: none;
+        li {
+            line-height: 3em;
+        }
+    }
+    img {
+        height: 10em;
+    }
+    .record {
+        border-top: 1px solid #fff;
+        line-height: 50px;
+    }
+}
+ */
